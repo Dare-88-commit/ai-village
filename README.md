@@ -73,7 +73,7 @@ We tested AI Village under real-world rural constraints:
 
 ## 💻 Get Involved
 - 🔗 **Live Demo**: [link]  
-- 📦 **GitHub**: [link]  
+- 📦 **GitHub**: https://github.com/Dare-88-commit/ai-village  
 - 📬 **Email**: daysem120@gmail.com  
 
 > *"Education is the most powerful weapon. Now it's a weapon that works offline."*
