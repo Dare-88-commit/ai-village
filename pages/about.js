@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function About() {
     return (
@@ -14,10 +15,10 @@ export default function About() {
             <header className="bg-gradient-to-r from-blue-600 to-green-600 p-4 text-white shadow-lg sticky top-0 z-50">
                 <div className="container mx-auto flex items-center justify-between">
                     <div className="flex items-center">
-                        <img
+                        <Image
                             src="/images/logo.png"
                             alt="AI Village Logo"
-                            className="w-10 h-10 rounded-full mr-3 object-contain border-2 border-white/30"
+                            className="rounded-full mr-3 object-contain border-2 border-white/30"
                             width={40}
                             height={40}
                         />
@@ -33,7 +34,6 @@ export default function About() {
                         >
                             Home
                         </Link>
-
                     </nav>
                 </div>
             </header>
@@ -42,10 +42,12 @@ export default function About() {
             <main className="flex-1 overflow-y-auto p-6 container mx-auto max-w-3xl">
                 <div className="bg-white dark:bg-gray-700 rounded-2xl shadow-sm p-8 border border-gray-100 dark:border-gray-600">
                     <div className="text-center mb-8">
-                        <img
+                        <Image
                             src="/images/logo.png"
                             alt="AI Village Logo"
-                            className="w-20 h-20 mx-auto rounded-full border-2 border-blue-100 dark:border-gray-600 object-contain"
+                            className="mx-auto rounded-full border-2 border-blue-100 dark:border-gray-600 object-contain"
+                            width={80}
+                            height={80}
                         />
                         <h1 className="text-3xl font-bold mt-4 text-gray-800 dark:text-white">Why I Built AI Village</h1>
                     </div>
@@ -60,7 +62,7 @@ export default function About() {
                         </p>
 
                         <p className="text-lg leading-relaxed mb-6">
-                            Somehow, I got out. Call it grace or luck — but many of my friends didn't. Their spark faded.
+                            Somehow, I got out. Call it grace or luck — but many of my friends didn&apos;t. Their spark faded.
                         </p>
 
                         <p className="text-lg leading-relaxed mb-6 font-semibold text-blue-600 dark:text-blue-400">
@@ -76,7 +78,7 @@ export default function About() {
                         </p>
 
                         <p className="text-lg leading-relaxed italic text-gray-600 dark:text-gray-300">
-                            Because learning shouldn't depend on privilege.
+                            Because learning shouldn&apos;t depend on privilege.
                         </p>
                     </div>
 
@@ -86,7 +88,6 @@ export default function About() {
                                 Back to Home
                             </div>
                         </Link>
-
                     </div>
                 </div>
             </main>
